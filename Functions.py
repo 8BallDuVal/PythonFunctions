@@ -52,3 +52,24 @@ class Cylinder():
     
     def volume(self):
         return (math.pi*(self.radius**2)*self.height)
+    
+def bubblesort_ascending(list):
+    #swap the elements to arrange in order:
+    for num in range(len(list)-1,0,-1):
+        for i in range(num):
+            if list[i]>list[i+1]:
+                temp = list[i]
+                list[i] = list[i + 1]
+                list[i+1] = temp
+                
+
+
+def bubblesort_descending(list):
+    #swap the elements to arrange in order:
+    for num in range(len(list)-1,0,-1):
+        for i in range(num):
+            if list[i]<list[i+1]:
+                temp = list[i]
+                list[i] = list[i + 1]
+                list[i+1] = temp
+                
