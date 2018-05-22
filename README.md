@@ -5,6 +5,8 @@ The Python Project contains the following Stand-Alone Functions:
 
 - add_two_nums(a, b)
 - multipy_two_nums(a, b)
+- bubblesort_ascending(list)
+- bubblesort_descending(list)
 
 These classes with their included Functions:
 
