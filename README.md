@@ -7,7 +7,8 @@ The Python Project contains the following Stand-Alone Functions:
 - multipy_two_nums(a, b)
 - bubblesort_ascending(list)
 - bubblesort_descending(list)
-- decimal_to_binary(number)
+- decimal_to_binary(decimalnumber)
+- binary_to_decimal(binarynumber)
 
 These classes with their included Functions:
 
