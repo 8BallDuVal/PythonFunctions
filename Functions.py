@@ -73,17 +73,13 @@ def bubblesort_descending(list):
                 list[i] = list[i + 1]
                 list[i+1] = temp
 
-def decimal_to_binary(number):
-    ### List/Array to store binary result
-    binary_result = []
-    if number ==0:
-        binary_result.append(0)
-    else:
-        leftover_list = []
-        while number != 0:
-            binarynum = number % 2
-            number = number // 2
-            leftover_list.append(number)
-            binary_result.append(binarynum)
-    
-    return binary_result[::-1]
+def decimal_to_binary(decimalnumber):
+    binary_num = bin(decimalnumber)
+    binary_num = str(binary_num)
+    binary_num = binary_num[2:]
+    binary_num = int(binary_num)
+    return binary_num
+
+def binary_to_decimal(binarynumber):
+    binarynumber = str(binarynumber)
+    return int(binarynumber, 2)
