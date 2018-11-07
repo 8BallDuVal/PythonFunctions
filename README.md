@@ -1,5 +1,5 @@
 # PythonFunctions
-Testing out GitHub, Uploading a simple Python Project where I call Functions I've made from another File.
+Uploading a simple Python Project where I call Functions I've made from another File.
 
 The Python Project contains the following Stand-Alone Functions:
 
